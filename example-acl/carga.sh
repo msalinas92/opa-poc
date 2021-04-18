@@ -1,0 +1,2 @@
+curl --location --request PUT 'http://localhost:8181/v1/data/myapi/acl' --data-binary @myapi-acl.json
+curl --location --request PUT 'http://localhost:8181/v1/policies/myapi' --data-binary @myapi-policy.rego
